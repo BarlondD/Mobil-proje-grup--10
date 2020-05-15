@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menus.Anamenu"
+    android:background="#000000">
+<TextView
+    android:layout_marginTop="30dp"
+    android:layout_marginLeft="125dp"
+    android:layout_marginBottom="100dp"
+    android:id="@+id/Giristxt"
+    android:text="Mayın Tarlası"
+    android:layout_width="125dp"
+    android:layout_height="wrap_content"
+    android:textSize="20dp"
+    android:textStyle="bold"
+    android:textColor="#d32f2f"/>
+
+    <Button
+
+        android:id="@+id/Playbtn"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:layout_marginBottom="30dp"
+        android:text="Play" />
+    <Button
+        android:layout_marginLeft="120dp"
+        android:layout_marginBottom="30dp"
+        android:id="@+id/Highscorebtn"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:text="High Score"
+        />
+    <Button
+        android:layout_marginLeft="120dp"
+        android:id="@+id/Nasıloynanırbtn"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:text="How To Play"
+        />
+
+</LinearLayout>

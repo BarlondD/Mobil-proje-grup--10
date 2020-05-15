@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.projemobil">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Menus.HowToPlay"></activity>
+        <activity android:name=".Menus.LoseMenu" />
+        <activity android:name=".Menus.WinMenu" />
+        <activity
+            android:name=".Hızlı.Level5"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".Hızlı.Level4"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".Hızlı.Level3"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".Hızlı.Level2"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".Hızlı.Level1"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity android:name=".Menus.HizliMenu" />
+        <activity
+            android:name=".Klasik.Zor"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".Klasik.Normal"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".Klasik.Kolay"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity android:name=".Menus.KlasikMenu" />
+        <activity android:name=".Menus.SkorMenu" />
+        <activity android:name=".Menus.ModMenu" />
+        <activity android:name=".Menus.Anamenu">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
